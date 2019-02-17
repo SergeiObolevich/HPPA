@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\serge\source\repos\firstlab\firstlab\main.cpp(13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\serge\source\repos\firstlab\firstlab\main.cpp(14): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  FirstLab.vcxproj -> C:\Users\serge\source\repos\FirstLab\Debug\FirstLab.exe
