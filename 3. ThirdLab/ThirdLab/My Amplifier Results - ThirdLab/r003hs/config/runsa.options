@@ -1,0 +1,15 @@
+-r
+C:\Users\serge\source\repos\ThirdLab\ThirdLab\My Amplifier Results - ThirdLab\r003hs
+--itt-config=frame
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=2200000,CPU_CLK_UNHALTED.REF_TSC:sa=2200000,INST_RETIRED.ANY:sa=2200000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UOPS_RETIRED.RETIRE_SLOTS:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,INST_RETIRED.X87:sa=2000003,UOPS_RETIRED.RETIRE_SLOTS:sa=2000003
+--platform-type=97
+--uncore-sampling-interval=10
+--mrte-mode=auto
+--itt-config=task,event,counter
+--p-state-trigger=CPU_CLK_UNHALTED.REF_TSC
+--
+C:\Users\serge\source\repos\ThirdLab\x64\Release\ThirdLab.exe

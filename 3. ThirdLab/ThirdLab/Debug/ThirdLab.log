@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\serge\source\repos\thirdlab\thirdlab\main.cpp(12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\serge\source\repos\thirdlab\thirdlab\main.cpp(13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  ThirdLab.vcxproj -> C:\Users\serge\source\repos\ThirdLab\Debug\ThirdLab.exe
