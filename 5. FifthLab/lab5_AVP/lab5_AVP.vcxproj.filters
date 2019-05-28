@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="matrix_helper">
+      <UniqueIdentifier>{5188cab2-229c-4d36-b065-9f544e1c7c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_helper">
+      <UniqueIdentifier>{836a2383-2eb2-47ec-9b25-7d0143bf58b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task_creator">
+      <UniqueIdentifier>{e43008fc-b684-4c8d-a1f4-b89fb6f6c9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpu_worker">
+      <UniqueIdentifier>{8a71f1a1-39d3-4909-bc60-2cbb30faf18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpu_simple_worker">
+      <UniqueIdentifier>{dd4bc625-d522-4d25-a569-b680267d8f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpu_shared_updated_worker">
+      <UniqueIdentifier>{4b39afd6-7924-4716-b9c8-ffe519f0aa66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpu_shared_transactions_worker">
+      <UniqueIdentifier>{09457d6f-a3e7-4eb2-bb8c-1851d1ae3ef9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="matrix_helper.cpp">
+      <Filter>matrix_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="image_helper.cpp">
+      <Filter>image_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="task_creator.cpp">
+      <Filter>task_creator</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_worker.cpp">
+      <Filter>cpu_worker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="matrix_helper.h">
+      <Filter>matrix_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="image_helper.h">
+      <Filter>image_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="task_creator.h">
+      <Filter>task_creator</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_worker.h">
+      <Filter>cpu_worker</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_simple_worker.cuh">
+      <Filter>gpu_simple_worker</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_shared_updated_worker.cuh">
+      <Filter>gpu_shared_updated_worker</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_shared_transactions_worker.cuh">
+      <Filter>gpu_shared_transactions_worker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="gpu_simple_worker.cu">
+      <Filter>gpu_simple_worker</Filter>
+    </CudaCompile>
+    <CudaCompile Include="gpu_shared_updated_worker.cu">
+      <Filter>gpu_shared_updated_worker</Filter>
+    </CudaCompile>
+    <CudaCompile Include="gpu_shared_transactions_worker.cu">
+      <Filter>gpu_shared_transactions_worker</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
